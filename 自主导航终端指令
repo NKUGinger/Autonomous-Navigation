@@ -1,0 +1,15 @@
+1. roscore
+
+2. roslaunch rchomeedu_speech lm.launch dict:=/home/ginger/catkin_ws/src/rc-home-edu-learn-ros/rchomeedu_navigation/Speech_Recognition/Navigation.dic lm:=/home/ginger/catkin_ws/src/rc-home-edu-learn-ros/rchomeedu_navigation/Speech_Recognition/Navigation.lm
+
+3. roslaunch turtlebot_gazebo turtlebot_world.launch
+
+4. roslaunch turtlebot_gazebo amcl_demo.launch map_file:=/home/ginger/my_map.yaml
+
+5. roslaunch turtlebot_rviz_launchers view_navigation.launch
+
+6. rosrun sound_play soundplay_node.py
+
+7. rosrun rchomeedu_navigation say.py
+
+8. roslaunch rchomeedu_navigation navigation.launch

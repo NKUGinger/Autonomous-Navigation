@@ -1,0 +1,61 @@
+Language model created by QuickLM on Wed Apr 15 01:52:20 EDT 2020
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 5 sentences and 11 words
+
+\data\
+ngram 1=11
+ngram 2=14
+ngram 3=13
+
+\1-grams:
+-1.1461 </s> -0.3010
+-1.1461 <s> -0.2688
+-1.8451 FIVE -0.2688
+-1.8451 FOUR -0.2688
+-1.1461 NAVIGATE -0.2688
+-1.8451 ONE -0.2688
+-1.1461 PLEASE -0.2688
+-1.1461 POINT -0.2688
+-1.8451 THREE -0.2688
+-1.1461 TO -0.2688
+-1.8451 TWO -0.2688
+
+\2-grams:
+-0.3010 <s> PLEASE 0.0000
+-0.3010 FIVE </s> -0.3010
+-0.3010 FOUR </s> -0.3010
+-0.3010 NAVIGATE TO 0.0000
+-0.3010 ONE </s> -0.3010
+-0.3010 PLEASE NAVIGATE 0.0000
+-1.0000 POINT FIVE 0.0000
+-1.0000 POINT FOUR 0.0000
+-1.0000 POINT ONE 0.0000
+-1.0000 POINT THREE 0.0000
+-1.0000 POINT TWO 0.0000
+-0.3010 THREE </s> -0.3010
+-0.3010 TO POINT 0.0000
+-0.3010 TWO </s> -0.3010
+
+\3-grams:
+-0.3010 <s> PLEASE NAVIGATE
+-0.3010 NAVIGATE TO POINT
+-0.3010 PLEASE NAVIGATE TO
+-0.3010 POINT FIVE </s>
+-0.3010 POINT FOUR </s>
+-0.3010 POINT ONE </s>
+-0.3010 POINT THREE </s>
+-0.3010 POINT TWO </s>
+-1.0000 TO POINT FIVE
+-1.0000 TO POINT FOUR
+-1.0000 TO POINT ONE
+-1.0000 TO POINT THREE
+-1.0000 TO POINT TWO
+
+\end\
